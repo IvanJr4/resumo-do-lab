@@ -64,5 +64,27 @@ Durabilidade: dados replicados local ou geograficamente para alta disponibilidad
 Segurança: criptografia automática e controle de acesso via Azure AD e RBAC.
 Acessibilidade: via REST APIs, SDKs ou portal do Azure.
 
+
+- A Governança e Conformidade no Azure referem-se ao conjunto de regras, políticas e ferramentas para garantir que o uso da nuvem esteja organizado, seguro e de acordo com as normas legais ou internas da sua organização.
+
+Não se trata apenas de segurança, mas sim de controle e ordem em grande escala.
+
+1. Governança: Ordem e Controle (O que você pode ou não fazer)
+A governança garante que os recursos do Azure sejam provisionados de forma consistente e dentro das regras.
+
+Azure Policy: É o serviço central. Permite que você aplique e fiscalize regras em todos os seus recursos. Por exemplo, pode-se usar uma política para:
+/ Garantir que todas as Máquinas Virtuais sejam criadas em uma região específica.
+/ Impedir que máquinas virtuais de alto custo sejam criadas.
+/ Exigir que a tag "Centro de Custo" seja aplicada a todos os novos recursos.
+
+Azure Blueprints (Modelos): Ajuda a implantar padrões de governança de forma rápida e repetitiva. 
+É como um modelo que inclui políticas, atribuições de funções e grupos de recursos pré-configurados.
+
+2. Conformidade: Atendimento a Normas (Verificação Legal e Regulatória)
+A conformidade garante que o seu ambiente atenda aos padrões regulatórios (como GDPR, HIPAA, PCI DSS).
+Azure Security Center (ou Microsoft Defender for Cloud): Monitora o seu ambiente e fornece uma Pontuação de Conformidade Regulamentar. Ele avisa quais controles de segurança você deve implementar para atender a um padrão específico (por exemplo, quais recursos não estão usando criptografia).
+
+Controles de Acesso (RBAC): Usar o Azure Active Directory (Azure AD) e o Role-Based Access Control (RBAC) é fundamental. Isso garante que cada pessoa ou serviço só tenha a permissão mínima necessária para fazer seu trabalho (o Princípio do Mínimo Privilégio).
+
 Identidade, Acesso e Segurança no Azure
 O Azure fornece ferramentas e serviços para gerenciar identidades, controlar acesso e proteger recursos na nuvem, garantindo que apenas usuários autorizados possam acessar os dados e serviços.
