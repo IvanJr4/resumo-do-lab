@@ -50,3 +50,6 @@ Escalabilidade: cresce conforme a demanda sem precisar de hardware físico.
 Durabilidade: dados replicados local ou geograficamente para alta disponibilidade.
 Segurança: criptografia automática e controle de acesso via Azure AD e RBAC.
 Acessibilidade: via REST APIs, SDKs ou portal do Azure.
+
+Identidade, Acesso e Segurança no Azure
+O Azure fornece ferramentas e serviços para gerenciar identidades, controlar acesso e proteger recursos na nuvem, garantindo que apenas usuários autorizados possam acessar os dados e serviços.
