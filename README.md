@@ -23,3 +23,30 @@ Por exemplo:
 Uma VM no Azure com alta disponibilidade (usando zonas ou conjuntos de disponibilidade) pode ter um SLA de 99,99%.
 Isso significa que, em teoria, o serviço pode ficar fora do ar por menos de 5 minutos por mês.
 Se a Microsoft não cumprir esse SLA, você pode solicitar créditos financeiros na fatura.
+
+Armazenamento no Azure
+
+O Azure Storage é um conjunto de serviços de armazenamento em nuvem seguro, escalável e durável, usado para armazenar diferentes tipos de dados e atender a diferentes necessidades de aplicações.
+Tipos de Armazenamento:
+- Blobs (Binary Large Objects)
+
+Armazenamento de arquivos não estruturados: imagens, vídeos, documentos.
+Tipos: Block Blob, Append Blob e Page Blob.
+Files (Azure File Storage)
+
+Compartilhamento de arquivos via SMB ou NFS, acessível como um disco de rede.
+Queues (Filas)
+
+Armazenamento de mensagens para comunicação assíncrona entre aplicativos.
+Tables (Tabelas)
+
+Banco de dados NoSQL para dados estruturados e semi-estruturados, leve e rápido.
+Disks (Discos)
+
+Armazenamento de discos para máquinas virtuais (VHDs).
+Principais Características
+
+Escalabilidade: cresce conforme a demanda sem precisar de hardware físico.
+Durabilidade: dados replicados local ou geograficamente para alta disponibilidade.
+Segurança: criptografia automática e controle de acesso via Azure AD e RBAC.
+Acessibilidade: via REST APIs, SDKs ou portal do Azure.
