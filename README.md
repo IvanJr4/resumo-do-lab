@@ -47,6 +47,19 @@ Armazenamento de discos para máquinas virtuais (VHDs).
 Principais Características
 
 Escalabilidade: cresce conforme a demanda sem precisar de hardware físico.
+
+
+- Visibilidade e Monitoramento:
+
+Você usa o Azure Cost Management and Billing (Gerenciamento de Custos e Faturamento) para visualizar exatamente onde seu dinheiro está sendo gasto (por serviço, por grupo de recursos ou por tag).
+É essencial criar orçamentos e configurar alertas para ser notificado antes de ultrapassar os limites de gastos definidos.
+
+Otimização e Economia (Estratégias Chave):
+Reservas do Azure (Azure Reservations): A principal forma de economizar. Você se compromete a usar um recurso (como Máquinas Virtuais ou Azure SQL Database) por um período de 1 ou 3 anos e recebe um grande desconto comparado ao preço de Pagamento Conforme o Uso.
+Nível de Serviço Correto (Tiering): Usar o tier de máquina virtual, armazenamento ou banco de dados que se encaixa na sua necessidade real de performance, sem pagar por excesso de capacidade. Por exemplo, migrar dados pouco acessados para o tier Cool ou Archive do Blob Storage.
+Desligamento de Recursos Ociosos: Identificar e desligar (ou desprovisionar) recursos que não são usados fora do horário comercial (como ambientes de desenvolvimento e teste).
+
+Azure Hybrid Benefit: Reutilizar licenças locais do Windows Server e SQL Server no Azure para economizar no custo do software.
 Durabilidade: dados replicados local ou geograficamente para alta disponibilidade.
 Segurança: criptografia automática e controle de acesso via Azure AD e RBAC.
 Acessibilidade: via REST APIs, SDKs ou portal do Azure.
